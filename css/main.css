@@ -4,6 +4,7 @@
 }
 
 body {
+    /* background-color: #F86F03 !important; */
     background-color: #fff;
     font-family: jost,sans-serif;
     font-size: 17px;
@@ -845,8 +846,12 @@ a,a:hover,.overlay,img,.form-control,.form-control:hover,button {
 .causes-details {
     background-color: #fff;
     padding: 40px 30px;
-    border: 1px dashed #ccc;
+    /* border: 1px dashed #ccc; */
     padding-top: 25px
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 
 .causes-details h3 {
